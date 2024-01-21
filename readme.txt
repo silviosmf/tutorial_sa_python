@@ -32,7 +32,12 @@
 # transformers
     pip install transformers
  
-# Additional Notes:
+## Downloading CBOW 50 Dimensions Word Embeddings
+# To work with Word2Vec models, it is necessary to have pre-trained word embeddings. For this purpose, the CBOW 50 dimensions file from NILC (Núcleo Interinstitucional de Linguística Computacional) can be used. This file contains word vectors trained using the CBOW (Continuous Bag of Words) model, a popular Word2Vec architecture.
+# To download the CBOW 50 dimensions file, visit: [NILC Word Embeddings Repository](http://nilc.icmc.usp.br/nilc/index.php/repositorio-de-word-embeddings-do-nilc)
+# The use of these pre-trained embeddings is crucial for achieving good performance in natural language processing tasks. Pre-trained embeddings like the CBOW 50 dimensions provide a rich representation of words in a high-dimensional space, capturing semantic relationships and context. This can significantly improve the quality of models for tasks like sentiment analysis.
+
+## Additional Notes:
 # Some libraries like `word_tokenize`, `stopwords`, `Dataset`, `CountVectorizer`, `accuracy_score` are part of the above-mentioned packages and will be installed with them.
 # Make sure you have Python installed on your system before running these commands.
 # It's recommended to use a virtual environment for Python projects to avoid conflicts between different projects' dependencies.
